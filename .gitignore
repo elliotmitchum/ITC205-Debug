@@ -4,5 +4,6 @@
 *.iml
 .idea
 *.obj
+!scenario/*.obj
 out
 lib
