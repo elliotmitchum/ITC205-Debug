@@ -79,7 +79,7 @@ public class Patron implements Serializable {
 	public void dischargeLoan(Loan loan) {
 	    long loanId = loan.getId();
 		if (currentLoans.containsKey(loanId)) {
-		    finesOwing += loan.getFines();
+		    // finesOwing += loan.getFines();
 			currentLoans.remove(loanId);
 		}
 		else {
